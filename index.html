@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Ray Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+</head>
+<body style="background-color: black;">
+    <img src="img1.jpg" alt="" id="man1" class="center img1">
+    <button id="BTN" class="center btn">
+        Turn on X-Ray
+    </button>
+
+    <footer class="footer">
+        <p class="copyright">
+            Copyright &copy; Learn Code And Create. All Rights Reserved
+            
+          </p>
+          <p class="copyright email">vikashranjanofficial@gmail.com</p>
+    </footer>
+        
+
+
+    <script>
+        const btn=document.getElementById("BTN");
+        const man1=document.getElementById("man1");
+        btn.addEventListener('click',toggle=(e)=>{
+            if(btn.textContent.includes('on')){
+                man1.src="img2.jpg";
+                btn.textContent="Turn off X-ray";
+            }
+            else{
+                man1.src="img1.jpg";
+                btn.textContent="Turn on X-Ray";
+            }
+        });
+    </script>
+
+</body>
+</html>

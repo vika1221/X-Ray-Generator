@@ -1,0 +1,32 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1{
+    height: 50vh;
+}
+
+.btn{
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.footer{
+    color: white;
+}
+
+.copyright{
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.email{
+    margin-top: 0;
+    display: flex;
+}
